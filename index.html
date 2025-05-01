@@ -36,7 +36,7 @@
   
     var g = svg.append("g");
   
-    d3.json("https://enjalot.github.io/wwsd/data/world/world-110m.geojson", function(error, geojson) {
+    d3.json("https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson", function(error, geojson) {
       if (error) throw error;
   
       var countries = geojson.features;
