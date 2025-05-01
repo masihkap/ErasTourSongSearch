@@ -1,0 +1,449 @@
+﻿Show_ID,City,Date,Song,Album,Guitar,Piano,Mashup,Mashup_SongNumber,Special_Guest
+1,"Glendale, AZ",17-Mar-23,mirrorball,folklore,TRUE,FALSE,FALSE,N/A,FALSE
+1,"Glendale, AZ",17-Mar-23,Tim McGraw,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+2,"Glendale, AZ",18-Mar-23,this is me trying,folklore,TRUE,FALSE,FALSE,N/A,FALSE
+2,"Glendale, AZ",18-Mar-23,State of Grace,Red,FALSE,TRUE,FALSE,N/A,FALSE
+3,"Las Vegas, NV",24-Mar-23,Our Song,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+3,"Las Vegas, NV",24-Mar-23,Snow on the Beach,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+4,"Las Vegas, NV",25-Mar-23,cowboy like me,evermore,TRUE,FALSE,FALSE,N/A,Marcus Mumford
+4,"Las Vegas, NV",25-Mar-23,White Horse,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+5,"Arlington, TX",31-Mar-23,Sad Beautiful Tragic,Red,TRUE,FALSE,FALSE,N/A,FALSE
+5,"Arlington, TX",31-Mar-23,Ours,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+6,"Arlington, TX",1-Apr-23,Death By A Thousand Cuts,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+6,"Arlington, TX",1-Apr-23,Clean,1989,FALSE,TRUE,FALSE,N/A,FALSE
+7,"Arlington, TX",2-Apr-23,Jump Then Fall,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+7,"Arlington, TX",2-Apr-23,The Lucky One,Red,FALSE,TRUE,FALSE,N/A,FALSE
+8,"Tampa, FL",13-Apr-23,Speak Now,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+8,"Tampa, FL",13-Apr-23,Treacherous,Red,FALSE,TRUE,FALSE,N/A,FALSE
+9,"Tampa, FL",14-Apr-23,The Great War,Midnights,TRUE,FALSE,FALSE,N/A,Aaron Dessner
+9,"Tampa, FL",14-Apr-23,"You're on Your Own, Kid",Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+10,"Tampa, FL",15-Apr-23,mad woman,folklore,FALSE,TRUE,FALSE,N/A,Aaron Dessner
+10,"Tampa, FL",15-Apr-23,Mean,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+11,"Houston, TX",21-Apr-23,Wonderland,1989,TRUE,FALSE,FALSE,N/A,FALSE
+11,"Houston, TX",21-Apr-23,You're Not Sorry,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+12,"Houston, TX",22-Apr-23,A Place In This World,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+12,"Houston, TX",22-Apr-23,Today Was A Fairytale,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+13,"Houston, TX",23-Apr-23,Begin Again,Red,TRUE,FALSE,FALSE,N/A,FALSE
+13,"Houston, TX",23-Apr-23,Cold As You,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+14,"Atlanta, GA",28-Apr-23,The Other Side of the Door,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+14,"Atlanta, GA",28-Apr-23,coney island,evermore,FALSE,TRUE,FALSE,N/A,FALSE
+15,"Atlanta, GA",29-Apr-23,High Infidelity,Midnights,TRUE,FALSE,FALSE,N/A,FALSE
+15,"Atlanta, GA",29-Apr-23,Gorgeous,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+16,"Atlanta, GA",30-Apr-23,I Bet You Think About Me,Red,TRUE,FALSE,FALSE,N/A,FALSE
+16,"Atlanta, GA",30-Apr-23,How You Get the Girl,1989,FALSE,TRUE,FALSE,N/A,FALSE
+17,"Nashville, TN",5-May-23,Sparks Fly,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+17,"Nashville, TN",5-May-23,Teardrops on my Guitar,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+18,"Nashville, TN",6-May-23,Out of the Woods,1989,TRUE,FALSE,FALSE,N/A,FALSE
+18,"Nashville, TN",6-May-23,Fifteen,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+19,"Nashville, TN",7-May-23,"Would've, Could've, Should've",Midnights,TRUE,FALSE,FALSE,N/A,Aaron Dessner
+19,"Nashville, TN",7-May-23,Mine,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+20,"Philadelphia, PA",12-May-23,gold rush,evermore,TRUE,FALSE,FALSE,N/A,FALSE
+20,"Philadelphia, PA",12-May-23,Come Back...Be Here,Red,FALSE,TRUE,FALSE,N/A,FALSE
+21,"Philadelphia, PA",13-May-23,Forever & Always,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+21,"Philadelphia, PA",13-May-23,This Love,1989,FALSE,TRUE,FALSE,N/A,FALSE
+22,"Philadelphia, PA",14-May-23,Hey Stephen,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+22,"Philadelphia, PA",14-May-23,The Best Day,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+23,"Foxborough, MA",19-May-23,Should've Said No,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+23,"Foxborough, MA",19-May-23,Better Man,Red,FALSE,TRUE,FALSE,N/A,FALSE
+24,"Foxborough, MA",20-May-23,Question…?,Midnights,TRUE,FALSE,FALSE,N/A,FALSE
+24,"Foxborough, MA",20-May-23,Invisible,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+25,"Foxborough, MA",21-May-23,I Think He Knows,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+25,"Foxborough, MA",21-May-23,Red,Red,TRUE,FALSE,FALSE,N/A,FALSE
+26,"East Rutherford, NJ",26-May-23,Getaway Car,reputation,TRUE,FALSE,FALSE,N/A,FALSE
+26,"East Rutherford, NJ",26-May-23,Maroon,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+27,"East Rutherford, NJ",27-May-23,Holy Ground,Red,TRUE,FALSE,FALSE,N/A,FALSE
+27,"East Rutherford, NJ",27-May-23,False God,Lover,FALSE,TRUE,FALSE,N/A,FALSE
+28,"East Rutherford, NJ",28-May-23,Welcome to New York,1989,TRUE,FALSE,FALSE,N/A,FALSE
+28,"East Rutherford, NJ",28-May-23,Clean,1989,FALSE,TRUE,FALSE,N/A,FALSE
+29,"Chicago, IL",2-Jun-23,I Wish You Would,1989,TRUE,FALSE,FALSE,N/A,FALSE
+29,"Chicago, IL",2-Jun-23,the lakes,folklore,FALSE,TRUE,FALSE,N/A,FALSE
+30,"Chicago, IL",3-Jun-23,You All Over Me,Fearless,TRUE,FALSE,FALSE,N/A,Maren Morris
+30,"Chicago, IL",3-Jun-23,I Don't Wanna Live Forever,Non Album,FALSE,TRUE,FALSE,N/A,FALSE
+31,"Chicago, IL",4-Jun-23,Hits Different,Midnights,TRUE,FALSE,FALSE,N/A,FALSE
+31,"Chicago, IL",4-Jun-23,The Moment I Knew,Red,FALSE,TRUE,FALSE,N/A,FALSE
+32,"Detroit, MI",9-Jun-23,Haunted,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+32,"Detroit, MI",9-Jun-23,I Almost Do,Red,FALSE,TRUE,FALSE,N/A,FALSE
+33,"Detroit, MI",10-Jun-23,All You Had To Do Was Stay,1989,TRUE,FALSE,FALSE,N/A,FALSE
+33,"Detroit, MI",10-Jun-23,Breathe,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+34,"Pittsburgh, PA",16-Jun-23,Mr. Perfectly Fine,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+34,"Pittsburgh, PA",16-Jun-23,The Last Time,Red,FALSE,TRUE,FALSE,N/A,FALSE
+35,"Pittsburgh, PA",17-Jun-23,seven,folklore,FALSE,TRUE,FALSE,N/A,Aaron Dessner
+35,"Pittsburgh, PA",17-Jun-23,The Story of Us,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+36,"Minneapolis, MN",23-Jun-23,Paper Rings,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+36,"Minneapolis, MN",23-Jun-23,If This Was A Movie,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+37,"Minneapolis, MN",24-Jun-23,Dear John,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+37,"Minneapolis, MN",24-Jun-23,Daylight,Lover,FALSE,TRUE,FALSE,N/A,FALSE
+38,"Cincinnati, OH",30-Jun-23,I'm Only Me When I'm With You,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+38,"Cincinnati, OH",30-Jun-23,evermore,evermore,FALSE,TRUE,FALSE,N/A,FALSE
+39,"Cincinnati, OH",1-Jul-23,ivy,evermore,TRUE,FALSE,FALSE,N/A,Aaron Dessner
+39,"Cincinnati, OH",1-Jul-23,"I miss you, I'm sorry",Non Album,TRUE,TRUE,FALSE,N/A,Gracie Abrams
+39,"Cincinnati, OH",1-Jul-23,Call It What You Want,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+40,"Kansas City, MO",7-Jul-23,Never Grow Up,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+40,"Kansas City, MO",7-Jul-23,When Emma Falls In Love,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+41,"Kansas City, MO",8-Jul-23,Last Kiss,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+41,"Kansas City, MO",8-Jul-23,dorothea,evermore,FALSE,TRUE,FALSE,N/A,FALSE
+42,"Denver, CO",14-Jul-23,Picture to Burn,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+42,"Denver, CO",14-Jul-23,Timeless,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+43,"Denver, CO",15-Jul-23,Starlight,Red,TRUE,FALSE,FALSE,N/A,FALSE
+43,"Denver, CO",15-Jul-23,Back to December,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+44,"Seattle, WA",22-Jul-23,This Is Why We Can't Have Nice Things,reputation,TRUE,FALSE,FALSE,N/A,FALSE
+44,"Seattle, WA",22-Jul-23,Everything Has Changed,Red,FALSE,TRUE,FALSE,N/A,FALSE
+45,"Seattle, WA",23-Jul-23,Message In A Bottle,Red,TRUE,FALSE,FALSE,N/A,FALSE
+45,"Seattle, WA",23-Jul-23,Tied Together With A Smile,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+46,"Santa Clara, CA",28-Jul-23,right where you left me,evermore,TRUE,FALSE,FALSE,N/A,Aaron Dessner
+46,"Santa Clara, CA",28-Jul-23,Castles Crumbling,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+47,"Santa Clara, CA",29-Jul-23,Stay Stay Stay,Red,TRUE,FALSE,FALSE,N/A,FALSE
+47,"Santa Clara, CA",29-Jul-23,All of The Girls You Loved Before,Lover,FALSE,TRUE,FALSE,N/A,FALSE
+48,"Los Angeles, CA",3-Aug-23,I Can See You,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+48,"Los Angeles, CA",3-Aug-23,Maroon,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+49,"Los Angeles, CA",4-Aug-23,Our Song,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+49,"Los Angeles, CA",4-Aug-23,You Are In Love,1989,FALSE,TRUE,FALSE,N/A,FALSE
+50,"Los Angeles, CA",5-Aug-23,Death By A Thousand Cuts,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+50,"Los Angeles, CA",5-Aug-23,"You're on Your Own, Kid",Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+51,"Los Angeles, CA",7-Aug-23,Dress,reputation,TRUE,FALSE,FALSE,N/A,FALSE
+51,"Los Angeles, CA",7-Aug-23,exile,folklore,FALSE,TRUE,FALSE,N/A,FALSE
+52,"Los Angeles, CA",8-Aug-23,I Know Places,1989,TRUE,FALSE,FALSE,N/A,FALSE
+52,"Los Angeles, CA",8-Aug-23,King of my Heart,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+53,"Los Angeles, CA",9-Aug-23,New Romantics,1989,TRUE,FALSE,FALSE,N/A,FALSE
+53,"Los Angeles, CA",9-Aug-23,New Year's Day,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+54,"Mexico City, Mexico",24-Aug-23,I Forgot That You Existed,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+54,"Mexico City, Mexico",24-Aug-23,Sweet Nothing,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+55,"Mexico City, Mexico",25-Aug-23,Tell Me Why,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+55,"Mexico City, Mexico",25-Aug-23,Snow on the Beach,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+56,"Mexico City, Mexico",26-Aug-23,Cornelia Street,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+56,"Mexico City, Mexico",26-Aug-23,"You're On Your Own, Kid",Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+57,"Mexico City, Mexico",27-Aug-23,Afterglow,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+57,"Mexico City, Mexico",27-Aug-23,Maroon,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+58,"Buenos Aires, Argentina",9-Nov-23,The Very First Night,Red,TRUE,FALSE,FALSE,N/A,FALSE
+58,"Buenos Aires, Argentina",9-Nov-23,Labryinth,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+60,"Buenos Aires, Argentina",11-Nov-23,Out Of The Woods,1989,TRUE,FALSE,TRUE,1,FALSE
+60,"Buenos Aires, Argentina",11-Nov-23,Is It Over Now?,1989,TRUE,FALSE,TRUE,1,FALSE
+60,"Buenos Aires, Argentina",11-Nov-23,End Game,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+61,"Buenos Aires, Argentina",12-Nov-23,Better Than Revenge,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+61,"Buenos Aires, Argentina",12-Nov-23,Slut!,1989,FALSE,TRUE,FALSE,N/A,FALSE
+62,"Rio de Janeiro, Brazil",17-Nov-23,Stay Beautiful,Debut,TRUE,FALSE,FALSE,N/A,FALSE
+62,"Rio de Janeiro, Brazil",17-Nov-23,Suburban Legends,1989,FALSE,TRUE,FALSE,N/A,FALSE
+64,"Rio de Janeiro, Brazil",19-Nov-23,Dancing with Our Hands Tied,reputation,TRUE,FALSE,FALSE,N/A,FALSE
+64,"Rio de Janeiro, Brazil",19-Nov-23,Bigger Than The Whole Sky,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+65,"Rio de Janeiro, Brazil",20-Nov-23,ME!,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+65,"Rio de Janeiro, Brazil",20-Nov-23,So It Goes…,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+66,"Sao Paulo, Brazil",24-Nov-23,Now That We Don't Talk,1989,TRUE,FALSE,FALSE,N/A,FALSE
+66,"Sao Paulo, Brazil",24-Nov-23,Innocent,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+67,"Sao Paulo, Brazil",25-Nov-23,Safe & Sound,Red,TRUE,FALSE,FALSE,N/A,FALSE
+67,"Sao Paulo, Brazil",25-Nov-23,Untouchable,Fearless,FALSE,TRUE,FALSE,N/A,FALSE
+68,"Sao Paulo, Brazil",26-Nov-23,Say Don't Go,1989,TRUE,FALSE,FALSE,N/A,FALSE
+68,"Sao Paulo, Brazil",26-Nov-23,it's time to go,evermore,FALSE,TRUE,FALSE,N/A,FALSE
+69,"Tokyo, Japan",7-Feb-24,Dear Reader,Midnights,TRUE,FALSE,FALSE,N/A,FALSE
+69,"Tokyo, Japan",7-Feb-24,Holy Ground,Red,FALSE,TRUE,FALSE,N/A,FALSE
+70,"Tokyo, Japan",8-Feb-24,Eyes Open,Red,TRUE,FALSE,FALSE,N/A,FALSE
+70,"Tokyo, Japan",8-Feb-24,Electric Touch,Speak Now,FALSE,TRUE,FALSE,N/A,FALSE
+71,"Tokyo, Japan",9-Feb-24,Superman,Speak Now,TRUE,FALSE,FALSE,N/A,FALSE
+71,"Tokyo, Japan",9-Feb-24,The Outside,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+72,"Tokyo, Japan",10-Feb-24,Come In With The Rain,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+72,"Tokyo, Japan",10-Feb-24,"You're On Your Own, Kid",Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+73,"Melbourne, Australia",16-Feb-24,Red,Red,TRUE,FALSE,FALSE,N/A,FALSE
+73,"Melbourne, Australia",16-Feb-24,You're Losing Me,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+74,"Melbourne, Australia",17-Feb-24,Getaway Car,reputation,TRUE,FALSE,TRUE,1,FALSE
+74,"Melbourne, Australia",17-Feb-24,august,folklore,TRUE,FALSE,TRUE,1,FALSE
+74,"Melbourne, Australia",17-Feb-24,The Other Side of the Door,Fearless,TRUE,FALSE,TRUE,1,FALSE
+74,"Melbourne, Australia",17-Feb-24,this is me trying,folklore,FALSE,TRUE,FALSE,N/A,FALSE
+75,"Melbourne, Australia",18-Feb-24,Come Back...Be Here,Red,TRUE,FALSE,TRUE,1,FALSE
+75,"Melbourne, Australia",18-Feb-24,Daylight,Lover,TRUE,FALSE,TRUE,1,FALSE
+75,"Melbourne, Australia",18-Feb-24,Teardrops on my Guitar,Debut,FALSE,TRUE,FALSE,N/A,FALSE
+76,"Sydney, Australia",23-Feb-24,How You Get The Girl,1989,TRUE,FALSE,FALSE,N/A,FALSE
+76,"Sydney, Australia",23-Feb-24,White Horse,Fearless,FALSE,TRUE,TRUE,2,Sabrina Carpenter
+76,"Sydney, Australia",23-Feb-24,coney island,evermore,FALSE,TRUE,TRUE,2,Sabrina Carpenter
+77,"Sydney, Australia",24-Feb-24,Should've Said No,Debut,TRUE,FALSE,TRUE,1,FALSE
+77,"Sydney, Australia",24-Feb-24,You're Not Sorry,Fearless,TRUE,FALSE,TRUE,1,FALSE
+77,"Sydney, Australia",24-Feb-24,New Year's Day,reputation,FALSE,TRUE,TRUE,2,FALSE
+77,"Sydney, Australia",24-Feb-24,peace,folklore,FALSE,TRUE,TRUE,2,FALSE
+78,"Sydney, Australia",25-Feb-24,Is It Over Now?,1989,TRUE,FALSE,TRUE,1,FALSE
+78,"Sydney, Australia",25-Feb-24,I Wish You Would,1989,TRUE,FALSE,TRUE,1,FALSE
+78,"Sydney, Australia",25-Feb-24,Haunted,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+78,"Sydney, Australia",25-Feb-24,exile,folklore,FALSE,TRUE,TRUE,2,FALSE
+79,"Sydney, Australia",26-Feb-24,"Would've, Could've, Should've",Midnights,TRUE,FALSE,TRUE,1,FALSE
+79,"Sydney, Australia",26-Feb-24,ivy,evermore,TRUE,FALSE,TRUE,1,FALSE
+79,"Sydney, Australia",26-Feb-24,Forever & Always,Fearless,FALSE,TRUE,TRUE,2,FALSE
+79,"Sydney, Australia",26-Feb-24,Maroon,Midnights,FALSE,TRUE,TRUE,2,FALSE
+80,Singapore,2-Mar-24,Mine,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+80,Singapore,2-Mar-24,Starlight,Red,TRUE,FALSE,TRUE,1,FALSE
+80,Singapore,2-Mar-24,I Don't Wanna Live Forever,Non Album,FALSE,TRUE,TRUE,2,FALSE
+80,Singapore,2-Mar-24,Dress,reputation,FALSE,TRUE,TRUE,2,FALSE
+81,Singapore,3-Mar-24,long story short,evermore,TRUE,FALSE,TRUE,1,FALSE
+81,Singapore,3-Mar-24,The Story of Us,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+81,Singapore,3-Mar-24,Clean,1989,FALSE,TRUE,TRUE,2,FALSE
+81,Singapore,3-Mar-24,evermore,evermore,FALSE,TRUE,TRUE,2,FALSE
+82,Singapore,4-Mar-24,Foolish One,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+82,Singapore,4-Mar-24,Tell Me Why,Fearless,TRUE,FALSE,TRUE,1,FALSE
+82,Singapore,4-Mar-24,This Love,1989,FALSE,TRUE,TRUE,2,FALSE
+82,Singapore,4-Mar-24,Call It What You Want,reputation,FALSE,TRUE,TRUE,2,FALSE
+83,Singapore,7-Mar-24,Death by a Thousand Cuts,Lover,TRUE,FALSE,TRUE,1,FALSE
+83,Singapore,7-Mar-24,Babe,Red,TRUE,FALSE,TRUE,1,FALSE
+83,Singapore,7-Mar-24,Fifteen,Fearless,FALSE,TRUE,TRUE,2,FALSE
+83,Singapore,7-Mar-24,"You're on Your Own, Kid",Midnights,FALSE,TRUE,TRUE,2,FALSE
+84,Singapore,8-Mar-24,Sparks Fly,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+84,Singapore,8-Mar-24,gold rush,evermore,TRUE,FALSE,TRUE,1,FALSE
+84,Singapore,8-Mar-24,False God,Lover,FALSE,TRUE,TRUE,2,FALSE
+84,Singapore,8-Mar-24,Slut!,1989,FALSE,TRUE,TRUE,2,FALSE
+85,Singapore,9-Mar-24,Tim McGraw,Debut,TRUE,FALSE,TRUE,1,FALSE
+85,Singapore,9-Mar-24,cowboy like me,evermore,TRUE,FALSE,TRUE,1,FALSE
+85,Singapore,9-Mar-24,mirrorball,folklore,FALSE,TRUE,TRUE,2,FALSE
+85,Singapore,9-Mar-24,epiphany,folklore,FALSE,TRUE,TRUE,2,FALSE
+86,"Paris, France",9-May-24,Paris,Midnights,TRUE,FALSE,FALSE,N/A,FALSE
+86,"Paris, France",9-May-24,loml,The Tortured Poets Department,FALSE,TRUE,FALSE,N/A,FALSE
+87,"Paris, France",10-May-24,Is It Over Now?,1989,TRUE,FALSE,TRUE,1,FALSE
+87,"Paris, France",10-May-24,Out Of The Woods,1989,TRUE,FALSE,TRUE,1,FALSE
+87,"Paris, France",10-May-24,My Boy Only Breaks His Favorite Toys,The Tortured Poets Department,FALSE,TRUE,FALSE,N/A,FALSE
+88,"Paris, France",11-May-24,Hey Stephen,Fearless,TRUE,FALSE,FALSE,N/A,FALSE
+88,"Paris, France",11-May-24,Maroon,Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+89,"Paris, France",12-May-24,The Alchemy,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+89,"Paris, France",12-May-24,Treacherous,Red,TRUE,FALSE,TRUE,1,FALSE
+89,"Paris, France",12-May-24,Begin Again,Red,FALSE,TRUE,TRUE,2,FALSE
+89,"Paris, France",12-May-24,Paris,Midnights,FALSE,TRUE,TRUE,2,FALSE
+90,"Stockholm, Sweden",17-May-24,I Think He Knows,Lover,TRUE,FALSE,TRUE,1,FALSE
+90,"Stockholm, Sweden",17-May-24,Gorgeous,reputation,TRUE,FALSE,TRUE,1,FALSE
+90,"Stockholm, Sweden",17-May-24,Peter,The Tortured Poets Department,FALSE,TRUE,FALSE,N/A,FALSE
+91,"Stockholm, Sweden",18-May-24,Guilty as Sin?,The Tortured Poets Department,TRUE,FALSE,FALSE,N/A,FALSE
+91,"Stockholm, Sweden",18-May-24,Say Don't Go,1989,FALSE,TRUE,TRUE,2,FALSE
+91,"Stockholm, Sweden",18-May-24,Welcome to New York,1989,FALSE,TRUE,TRUE,2,FALSE
+91,"Stockholm, Sweden",18-May-24,Clean,1989,FALSE,TRUE,TRUE,2,FALSE
+92,"Stockholm, Sweden",19-May-24,Message in a Bottle,Red,TRUE,FALSE,TRUE,1,FALSE
+92,"Stockholm, Sweden",19-May-24,How You Get The Girl,1989,TRUE,FALSE,TRUE,1,FALSE
+92,"Stockholm, Sweden",19-May-24,New Romantics,1989,TRUE,FALSE,TRUE,1,FALSE
+92,"Stockholm, Sweden",19-May-24,How Did It End?,The Tortured Poets Department,FALSE,TRUE,FALSE,N/A,FALSE
+93,"Lisbon, Portugal",24-May-24,Come Back..Be Here,Red,TRUE,FALSE,TRUE,1,FALSE
+93,"Lisbon, Portugal",24-May-24,The Way I Loved You,Fearless,TRUE,FALSE,TRUE,1,FALSE
+93,"Lisbon, Portugal",24-May-24,The Other Side of the Door,Fearless,TRUE,FALSE,TRUE,1,FALSE
+93,"Lisbon, Portugal",24-May-24,Fresh Out The Slammer,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+93,"Lisbon, Portugal",24-May-24,High Infidelity,Midnights,FALSE,TRUE,TRUE,2,FALSE
+94,"Lisbon, Portugal",25-May-24,The Tortured Poets Department,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+94,"Lisbon, Portugal",25-May-24,Now That We Don't Talk,1989,TRUE,FALSE,TRUE,1,FALSE
+94,"Lisbon, Portugal",25-May-24,"You're On Your Own, Kid",Midnights,FALSE,TRUE,TRUE,2,FALSE
+94,"Lisbon, Portugal",25-May-24,Long Live,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+95,"Madrid, Spain",29-May-24,Sparks Fly,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+95,"Madrid, Spain",29-May-24,I Can Fix Him (No Really I Can),The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+95,"Madrid, Spain",29-May-24,I Look in People's Windows,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+95,"Madrid, Spain",29-May-24,Snow on the Beach,Midnights,FALSE,TRUE,TRUE,2,FALSE
+96,"Madrid, Spain",30-May-24,Our Song,Debut,TRUE,FALSE,TRUE,1,FALSE
+96,"Madrid, Spain",30-May-24,Jump then Fall,Fearless,TRUE,FALSE,TRUE,1,FALSE
+96,"Madrid, Spain",30-May-24,King of My Heart,reputation,FALSE,TRUE,FALSE,N/A,FALSE
+97,"Lyon, France",2-Jun-24,The Prophecy,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+97,"Lyon, France",2-Jun-24,long story short,evermore,TRUE,FALSE,TRUE,1,FALSE
+97,"Lyon, France",2-Jun-24,Fifteen,Fearless,FALSE,TRUE,TRUE,2,FALSE
+97,"Lyon, France",2-Jun-24,"You're on Your Own, Kid",Midnights,FALSE,TRUE,TRUE,2,FALSE
+98,"Lyon, France",3-Jun-24,Glitch,Midnights,TRUE,FALSE,TRUE,1,FALSE
+98,"Lyon, France",3-Jun-24,Everything Has Changed,Red,TRUE,FALSE,TRUE,1,FALSE
+98,"Lyon, France",3-Jun-24,Chloe or Sam or Sophia or Marcus,The Tortured Poets Department,FALSE,TRUE,FALSE,N/A,FALSE
+99,"Edinburgh, United Kingdom",7-Jun-24,"Would've, Could've, Should've",Midnights,TRUE,FALSE,TRUE,1,FALSE
+99,"Edinburgh, United Kingdom",7-Jun-24,I Know Places,1989,TRUE,FALSE,TRUE,1,FALSE
+99,"Edinburgh, United Kingdom",7-Jun-24,tis the damn season,evermore,FALSE,TRUE,TRUE,2,FALSE
+99,"Edinburgh, United Kingdom",7-Jun-24,Daylight,Lover,FALSE,TRUE,TRUE,2,FALSE
+100,"Edinburgh, United Kingdom",8-Jun-24,The Bolter,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+100,"Edinburgh, United Kingdom",8-Jun-24,Getaway Car,reputation,TRUE,FALSE,TRUE,1,FALSE
+100,"Edinburgh, United Kingdom",8-Jun-24,All of the Girls You Loved Before,Lover,FALSE,TRUE,TRUE,2,FALSE
+100,"Edinburgh, United Kingdom",8-Jun-24,Crazier,Non Album,FALSE,TRUE,TRUE,2,FALSE
+101,"Edinburgh, United Kingdom",9-Jun-24,It's Nice to Have a Friend,Lover,TRUE,FALSE,TRUE,1,FALSE
+101,"Edinburgh, United Kingdom",9-Jun-24,dorothea,evermore,TRUE,FALSE,TRUE,1,FALSE
+101,"Edinburgh, United Kingdom",9-Jun-24,Haunted,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+101,"Edinburgh, United Kingdom",9-Jun-24,exile,folklore,FALSE,TRUE,TRUE,2,FALSE
+102,"Liverpool, United Kingdom",13-Jun-24,I Can See You,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+102,"Liverpool, United Kingdom",13-Jun-24,Mine,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+102,"Liverpool, United Kingdom",13-Jun-24,Cornelia Street,Lover,FALSE,TRUE,TRUE,2,FALSE
+102,"Liverpool, United Kingdom",13-Jun-24,Maroon,Midnights,FALSE,TRUE,TRUE,2,FALSE
+103,"Liverpool, United Kingdom",14-Jun-24,This Is What You Came For,Non Album,TRUE,FALSE,TRUE,1,FALSE
+103,"Liverpool, United Kingdom",14-Jun-24,gold rush,evermore,TRUE,FALSE,TRUE,1,FALSE
+103,"Liverpool, United Kingdom",14-Jun-24,The Great War,Midnights,FALSE,TRUE,TRUE,2,FALSE
+103,"Liverpool, United Kingdom",14-Jun-24,You're Losing Me,Midnights,FALSE,TRUE,TRUE,2,FALSE
+104,"Liverpool, United Kingdom",15-Jun-24,Carolina,Non Album,TRUE,FALSE,TRUE,1,FALSE
+104,"Liverpool, United Kingdom",15-Jun-24,"no body, no crime",evermore,TRUE,FALSE,TRUE,1,FALSE
+104,"Liverpool, United Kingdom",15-Jun-24,The Manuscript,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+104,"Liverpool, United Kingdom",15-Jun-24,Red,Red,FALSE,TRUE,TRUE,2,FALSE
+105,"Cardiff, United Kingdom",18-Jun-24,I Forgot That You Existed,Lover,TRUE,FALSE,TRUE,1,FALSE
+105,"Cardiff, United Kingdom",18-Jun-24,This Is Why We Can't Have Nice Things,reputation,TRUE,FALSE,TRUE,1,FALSE
+105,"Cardiff, United Kingdom",18-Jun-24,I Hate It Here,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+105,"Cardiff, United Kingdom",18-Jun-24,the lakes,folklore,FALSE,TRUE,TRUE,2,FALSE
+106,"London, United Kingdom",21-Jun-24,Hits Different,Midnights,TRUE,FALSE,TRUE,1,FALSE
+106,"London, United Kingdom",21-Jun-24,Death by a Thousand Cuts,Lover,TRUE,FALSE,TRUE,1,FALSE
+106,"London, United Kingdom",21-Jun-24,The Black Dog,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+106,"London, United Kingdom",21-Jun-24,Come Back...Be Here,Red,FALSE,TRUE,TRUE,2,FALSE
+106,"London, United Kingdom",21-Jun-24,Maroon,Midnights,FALSE,TRUE,TRUE,2,FALSE
+107,"London, United Kingdom",22-Jun-24,thanK you aIMee,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+107,"London, United Kingdom",22-Jun-24,Mean,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+107,"London, United Kingdom",22-Jun-24,Castles Crumbling,Speak Now,FALSE,TRUE,FALSE,N/A,Hayley Williams
+108,"London, United Kingdom",23-Jun-24,us.,Non Album,TRUE,TRUE,FALSE,N/A,Gracie Abrams
+108,"London, United Kingdom",23-Jun-24,Out of the Woods,1989,FALSE,TRUE,TRUE,2,FALSE
+108,"London, United Kingdom",23-Jun-24,Is It Over Now?,1989,FALSE,TRUE,TRUE,2,FALSE
+108,"London, United Kingdom",23-Jun-24,Clean,1989,FALSE,TRUE,TRUE,2,FALSE
+109,"Dublin, Ireland",28-Jun-24,State of Grace,Red,TRUE,FALSE,TRUE,1,FALSE
+109,"Dublin, Ireland",28-Jun-24,"You're on Your Own, Kid",Midnights,TRUE,FALSE,TRUE,1,FALSE
+109,"Dublin, Ireland",28-Jun-24,Sweet Nothing,Midnights,FALSE,TRUE,TRUE,2,FALSE
+109,"Dublin, Ireland",28-Jun-24,hoax,folklore,FALSE,TRUE,TRUE,2,FALSE
+110,"Dublin, Ireland",29-Jun-24,The Albatross,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+110,"Dublin, Ireland",29-Jun-24,Dancing with Our Hands Tied,reputation,TRUE,FALSE,TRUE,1,FALSE
+110,"Dublin, Ireland",29-Jun-24,This Love,1989,FALSE,TRUE,TRUE,2,FALSE
+110,"Dublin, Ireland",29-Jun-24,Ours,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+111,"Dublin, Ireland",30-Jun-24,Clara Bow,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+111,"Dublin, Ireland",30-Jun-24,The Lucky One,Red,TRUE,FALSE,TRUE,1,FALSE
+111,"Dublin, Ireland",30-Jun-24,"You're On Your Own, Kid",Midnights,FALSE,TRUE,FALSE,N/A,FALSE
+112,"Amsterdam, Netherlands",4-Jul-24,Guilty as Sin?,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+112,"Amsterdam, Netherlands",4-Jul-24,Untouchable,Fearless,TRUE,FALSE,TRUE,1,FALSE
+112,"Amsterdam, Netherlands",4-Jul-24,The Archer,Lover,FALSE,TRUE,TRUE,2,FALSE
+112,"Amsterdam, Netherlands",4-Jul-24,Question...?,Midnights,FALSE,TRUE,TRUE,2,FALSE
+113,"Amsterdam, Netherlands",5-Jul-24,imgonnagetyouback,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+113,"Amsterdam, Netherlands",5-Jul-24,Dress,reputation,TRUE,FALSE,TRUE,1,FALSE
+113,"Amsterdam, Netherlands",5-Jul-24,You Are In Love,1989,FALSE,TRUE,TRUE,2,FALSE
+113,"Amsterdam, Netherlands",5-Jul-24,cowboy like me,evermore,FALSE,TRUE,TRUE,2,FALSE
+114,"Amsterdam, Netherlands",6-Jul-24,Sweeter Than Fiction,1989,TRUE,FALSE,TRUE,1,FALSE
+114,"Amsterdam, Netherlands",6-Jul-24,Holy Ground,Red,TRUE,FALSE,TRUE,1,FALSE
+114,"Amsterdam, Netherlands",6-Jul-24,Mary's Song,Debut,FALSE,TRUE,TRUE,2,FALSE
+114,"Amsterdam, Netherlands",6-Jul-24,So High School,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+114,"Amsterdam, Netherlands",6-Jul-24,Everything Has Changed,Red,FALSE,TRUE,TRUE,2,FALSE
+115,"Zurich, Switzerland",9-Jul-24,right where you left me,evermore,TRUE,FALSE,TRUE,1,FALSE
+115,"Zurich, Switzerland",9-Jul-24,All You Had to Do Was Stay,1989,TRUE,FALSE,TRUE,1,FALSE
+115,"Zurich, Switzerland",9-Jul-24,Last Kiss,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+115,"Zurich, Switzerland",9-Jul-24,Sad Beautiful Tragic,Red,FALSE,TRUE,TRUE,2,FALSE
+116,"Zurich, Switzerland",10-Jul-24,closure,evermore,TRUE,FALSE,TRUE,1,FALSE
+116,"Zurich, Switzerland",10-Jul-24,A Perfectly Good Heart,Debut,TRUE,FALSE,TRUE,1,FALSE
+116,"Zurich, Switzerland",10-Jul-24,Robin,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+116,"Zurich, Switzerland",10-Jul-24,Never Grow Up,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+117,"Milan, Italy",13-Jul-24,the 1,folklore,TRUE,FALSE,TRUE,1,FALSE
+117,"Milan, Italy",13-Jul-24,Wonderland,1989,TRUE,FALSE,TRUE,1,FALSE
+117,"Milan, Italy",13-Jul-24,I Almost Do,Red,FALSE,TRUE,TRUE,2,FALSE
+117,"Milan, Italy",13-Jul-24,The Moment I Knew,Red,FALSE,TRUE,TRUE,2,FALSE
+118,"Milan, Italy",14-Jul-24,Mr. Perfectly Fine,Fearless,TRUE,FALSE,TRUE,1,FALSE
+118,"Milan, Italy",14-Jul-24,Red,Red,TRUE,FALSE,TRUE,1,FALSE
+118,"Milan, Italy",14-Jul-24,Getaway Car,reputation,FALSE,TRUE,TRUE,2,FALSE
+118,"Milan, Italy",14-Jul-24,Out of the Woods,1989,FALSE,TRUE,TRUE,2,FALSE
+119,"Gelsenkirchen, Germany",17-Jul-24,Superstar,Fearless,TRUE,FALSE,TRUE,1,FALSE
+119,"Gelsenkirchen, Germany",17-Jul-24,invisible string,folklore,TRUE,FALSE,TRUE,1,FALSE
+119,"Gelsenkirchen, Germany",17-Jul-24,Slut!,1989,FALSE,TRUE,TRUE,2,FALSE
+119,"Gelsenkirchen, Germany",17-Jul-24,False God,Lover,FALSE,TRUE,TRUE,2,FALSE
+120,"Gelsenkirchen, Germany",18-Jul-24,Speak Now,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+120,"Gelsenkirchen, Germany",18-Jul-24,Hey Stephen,Fearless,TRUE,FALSE,TRUE,1,FALSE
+120,"Gelsenkirchen, Germany",18-Jul-24,this is me trying,folklore,FALSE,TRUE,TRUE,2,FALSE
+120,"Gelsenkirchen, Germany",18-Jul-24,Labyrinth,Midnights,FALSE,TRUE,TRUE,2,FALSE
+121,"Gelsenkirchen, Germany",19-Jul-24,Paper Rings,Lover,TRUE,FALSE,TRUE,1,FALSE
+121,"Gelsenkirchen, Germany",19-Jul-24,Stay Stay Stay,Red,TRUE,FALSE,TRUE,1,FALSE
+121,"Gelsenkirchen, Germany",19-Jul-24,Better Man,Red,FALSE,TRUE,TRUE,2,FALSE
+121,"Gelsenkirchen, Germany",19-Jul-24,it's time to go,evermore,FALSE,TRUE,TRUE,2,FALSE
+122,"Hamburg, Germany",23-Jul-24,Teardrops on my Guitar,Debut,TRUE,FALSE,TRUE,1,FALSE
+122,"Hamburg, Germany",23-Jul-24,The Last Time,Red,TRUE,FALSE,TRUE,1,FALSE
+122,"Hamburg, Germany",23-Jul-24,We Were Happy,Fearless,FALSE,TRUE,TRUE,2,FALSE
+122,"Hamburg, Germany",23-Jul-24,happiness,evermore,FALSE,TRUE,TRUE,2,FALSE
+123,"Hamburg, Germany",24-Jul-24,Run,Red,TRUE,FALSE,TRUE,1,FALSE
+123,"Hamburg, Germany",24-Jul-24,the last great american dynasty,folklore,TRUE,FALSE,TRUE,1,FALSE
+123,"Hamburg, Germany",24-Jul-24,Dear Reader,Midnights,FALSE,TRUE,TRUE,2,FALSE
+123,"Hamburg, Germany",24-Jul-24,Nothing New,Red,FALSE,TRUE,TRUE,2,FALSE
+124,"Munich, Germany",27-Jul-24,Fresh Out The Slammer,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+124,"Munich, Germany",27-Jul-24,You Are in Love,1989,TRUE,FALSE,TRUE,1,FALSE
+124,"Munich, Germany",27-Jul-24,ivy,evermore,FALSE,TRUE,TRUE,2,FALSE
+124,"Munich, Germany",27-Jul-24,Call It What You Want,reputation,FALSE,TRUE,TRUE,2,FALSE
+125,"Munich, Germany",28-Jul-24,I Don't Wanna Live Forever,Non Album,TRUE,FALSE,TRUE,1,FALSE
+125,"Munich, Germany",28-Jul-24,imgonnagetyouback,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+125,"Munich, Germany",28-Jul-24,Don't You,Fearless,FALSE,TRUE,TRUE,2,FALSE
+125,"Munich, Germany",28-Jul-24,loml,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+126,"Warsaw, Poland",1-Aug-24,Clara Bow,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+126,"Warsaw, Poland",1-Aug-24,mirrorball,folklore,TRUE,FALSE,TRUE,1,FALSE
+126,"Warsaw, Poland",1-Aug-24,New Year's Day,reputation,FALSE,TRUE,TRUE,2,FALSE
+126,"Warsaw, Poland",1-Aug-24,Suburban Legends,1989,FALSE,TRUE,TRUE,2,FALSE
+127,"Warsaw, Poland",2-Aug-24,I Can Fix Him (No Really I Can),The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+127,"Warsaw, Poland",2-Aug-24,I Can See You,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+127,"Warsaw, Poland",2-Aug-24,Maroon,Midnights,FALSE,TRUE,TRUE,2,FALSE
+127,"Warsaw, Poland",2-Aug-24,Red,Red,FALSE,TRUE,TRUE,2,FALSE
+128,"Warsaw, Poland",3-Aug-24,Today Was a Fairytale,Fearless,TRUE,FALSE,TRUE,1,FALSE
+128,"Warsaw, Poland",3-Aug-24,I Think He Knows,Lover,TRUE,FALSE,TRUE,1,FALSE
+128,"Warsaw, Poland",3-Aug-24,exile,folklore,FALSE,TRUE,TRUE,2,FALSE
+128,"Warsaw, Poland",3-Aug-24,The Black Dog,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+132,"London, United Kingdom",15-Aug-24,Everything Has Changed,Red,TRUE,FALSE,TRUE,1,Ed Sheeran
+132,"London, United Kingdom",15-Aug-24,End Game,reputation,TRUE,FALSE,TRUE,1,Ed Sheeran
+132,"London, United Kingdom",15-Aug-24,Thinking Out Loud,Non Album,TRUE,FALSE,TRUE,1,Ed Sheeran
+132,"London, United Kingdom",15-Aug-24,King of My Heart,reputation,FALSE,TRUE,TRUE,2,FALSE
+132,"London, United Kingdom",15-Aug-24,The Alchemy,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+133,"London, United Kingdom",16-Aug-24,London Boy,Lover,TRUE,FALSE,FALSE,N/A,FALSE
+133,"London, United Kingdom",16-Aug-24,Dear John,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+133,"London, United Kingdom",16-Aug-24,Sad Beautiful Tragic,Red,FALSE,TRUE,TRUE,2,FALSE
+134,"London, United Kingdom",17-Aug-24,I Did Something Bad,reputation,TRUE,FALSE,FALSE,N/A,FALSE
+134,"London, United Kingdom",17-Aug-24,My Boy Only Breaks His Favorite Toys,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+134,"London, United Kingdom",17-Aug-24,coney island,evermore,FALSE,TRUE,TRUE,2,FALSE
+135,"London, United Kingdom",19-Aug-24,Change,Fearless,TRUE,FALSE,TRUE,1,FALSE
+135,"London, United Kingdom",19-Aug-24,Long Live,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+135,"London, United Kingdom",19-Aug-24,The Archer,Lover,FALSE,TRUE,TRUE,2,FALSE
+135,"London, United Kingdom",19-Aug-24,You're on Your Own Kid,Midnights,FALSE,TRUE,TRUE,2,FALSE
+136,"London, United Kingdom",20-Aug-24,Death by a Thousand Cuts,Lover,TRUE,FALSE,TRUE,1,Jack Antonoff
+136,"London, United Kingdom",20-Aug-24,Getaway Car,reputation,TRUE,FALSE,TRUE,1,Jack Antonoff
+136,"London, United Kingdom",20-Aug-24,"So Long, London",The Tortured Poets Department,FALSE,TRUE,FALSE,N/A,FALSE
+137,"Miami, FL",18-Oct-24,Tim McGraw,Debut,TRUE,FALSE,TRUE,1,FALSE
+137,"Miami, FL",18-Oct-24,Timeless,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+137,"Miami, FL",18-Oct-24,this is me trying,folklore,FALSE,TRUE,TRUE,2,FALSE
+137,"Miami, FL",18-Oct-24,Daylight,Lover,FALSE,TRUE,TRUE,2,FALSE
+138,"Miami, FL",19-Oct-24,I Did Something Bad,reputation,TRUE,FALSE,TRUE,1,FALSE
+138,"Miami, FL",19-Oct-24,Should've Said No,Debut,TRUE,FALSE,TRUE,1,FALSE
+138,"Miami, FL",19-Oct-24,White Horse,Fearless,FALSE,TRUE,TRUE,2,FALSE
+138,"Miami, FL",19-Oct-24,loml,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+139,"Miami, FL",20-Oct-24,All You Had to do Was Stay,1989,TRUE,FALSE,TRUE,1,FALSE
+139,"Miami, FL",20-Oct-24,Out of the Woods,1989,TRUE,FALSE,TRUE,1,FALSE
+139,"Miami, FL",20-Oct-24,Guilty as Sin?,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+139,"Miami, FL",20-Oct-24,mirrorball,folklore,FALSE,TRUE,TRUE,2,FALSE
+140,"New Orleans, LA",25-Oct-24,Our Song,Debut,TRUE,FALSE,TRUE,1,FALSE
+140,"New Orleans, LA",25-Oct-24,Call It What You Want,reputation,TRUE,FALSE,TRUE,1,FALSE
+140,"New Orleans, LA",25-Oct-24,The Black Dog,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+140,"New Orleans, LA",25-Oct-24,Haunted,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+141,"New Orleans, LA",26-Oct-24,Espresso,Non Album,TRUE,FALSE,TRUE,1,Sabrina Carpenter
+141,"New Orleans, LA",26-Oct-24,Is It Over Now,1989,TRUE,FALSE,TRUE,1,Sabrina Carpenter
+141,"New Orleans, LA",26-Oct-24,Please Please Please,Non Album,TRUE,FALSE,TRUE,1,Sabrina Carpenter
+141,"New Orleans, LA",26-Oct-24,Hits Different,Midnights,FALSE,TRUE,TRUE,2,FALSE
+141,"New Orleans, LA",26-Oct-24,Welcome to New York,1989,FALSE,TRUE,TRUE,2,FALSE
+142,"New Orleans, LA",27-Oct-24,Afterglow,Lover,TRUE,FALSE,TRUE,1,FALSE
+142,"New Orleans, LA",27-Oct-24,Dress,reputation,TRUE,FALSE,TRUE,1,FALSE
+142,"New Orleans, LA",27-Oct-24,Clean,1989,FALSE,TRUE,TRUE,2,FALSE
+142,"New Orleans, LA",27-Oct-24,How You Get The Girl,1989,FALSE,TRUE,TRUE,2,FALSE
+143,"Indianapolis, IN",1-Nov-24,Holy Ground,Red,TRUE,FALSE,TRUE,1,FALSE
+143,"Indianapolis, IN",1-Nov-24,The Alabatross,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+143,"Indianapolis, IN",1-Nov-24,Cold as You,Debut,FALSE,TRUE,TRUE,2,FALSE
+143,"Indianapolis, IN",1-Nov-24,exile,folklore,FALSE,TRUE,TRUE,2,FALSE
+144,"Indianapolis, IN",2-Nov-24,The Prophecy,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+144,"Indianapolis, IN",2-Nov-24,This Love,1989,TRUE,FALSE,TRUE,1,FALSE
+144,"Indianapolis, IN",2-Nov-24,Maroon,Midnights,FALSE,TRUE,TRUE,2,FALSE
+144,"Indianapolis, IN",2-Nov-24,cowboy like me,evermore,FALSE,TRUE,TRUE,2,FALSE
+145,"Indianapolis, IN",3-Nov-24,Cornelia Street,Lover,TRUE,FALSE,TRUE,1,FALSE
+145,"Indianapolis, IN",3-Nov-24,The Bolter,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+145,"Indianapolis, IN",3-Nov-24,Death by a Thousand Cuts,Lover,FALSE,TRUE,TRUE,2,FALSE
+145,"Indianapolis, IN",3-Nov-24,The Great War,Midnights,FALSE,TRUE,TRUE,2,FALSE
+146,"Toronto, Canada",14-Nov-24,My Boy Only Breaks His Favorite Toys,The Tortured Poets Department,TRUE,FALSE,TRUE,1,FALSE
+146,"Toronto, Canada",14-Nov-24,This Is Why We Can't Have Nice Things,reputation,TRUE,FALSE,TRUE,1,FALSE
+146,"Toronto, Canada",14-Nov-24,False God,Lover,FALSE,TRUE,TRUE,2,FALSE
+146,"Toronto, Canada",14-Nov-24,tis the damn season,evermore,FALSE,TRUE,TRUE,2,FALSE
+147,"Toronto, Canada",15-Nov-24,I Don't Wanna Live Forever,Non Album,TRUE,FALSE,TRUE,1,FALSE
+147,"Toronto, Canada",15-Nov-24,Mine,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+147,"Toronto, Canada",15-Nov-24,evermore,evermore,FALSE,TRUE,TRUE,2,FALSE
+147,"Toronto, Canada",15-Nov-24,Peter,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+148,"Toronto, Canada",16-Nov-24,us.,Non Album,TRUE,FALSE,TRUE,1,Gracie Abrams
+148,"Toronto, Canada",16-Nov-24,Out of the Woods,1989,TRUE,FALSE,TRUE,1,Gracie Abrams
+148,"Toronto, Canada",16-Nov-24,"You're On Your Own, Kid",Midnights,FALSE,TRUE,TRUE,2,FALSE
+148,"Toronto, Canada",16-Nov-24,long story short,evermore,FALSE,TRUE,TRUE,2,FALSE
+149,"Toronto, Canada",21-Nov-24,Mr. Perfectly Fine,Fearless,TRUE,FALSE,TRUE,1,FALSE
+149,"Toronto, Canada",21-Nov-24,Better Than Revenge,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+149,"Toronto, Canada",21-Nov-24,State of Grace,Red,FALSE,TRUE,TRUE,2,FALSE
+149,"Toronto, Canada",21-Nov-24,Labyrinth,Midnights,FALSE,TRUE,TRUE,2,FALSE
+150,"Toronto, Canada",22-Nov-24,Ours,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+150,"Toronto, Canada",22-Nov-24,the last great american dynasty,folklore,TRUE,FALSE,TRUE,1,FALSE
+150,"Toronto, Canada",22-Nov-24,Cassandra,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+150,"Toronto, Canada",22-Nov-24,mad woman,folklore,FALSE,TRUE,TRUE,2,FALSE
+150,"Toronto, Canada",22-Nov-24,I Did Something Bad,reputation,FALSE,TRUE,TRUE,2,FALSE
+151,"Toronto, Canada",23-Nov-24,Sparks Fly,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+151,"Toronto, Canada",23-Nov-24,Message in a Bottle,Red,TRUE,FALSE,TRUE,1,FALSE
+151,"Toronto, Canada",23-Nov-25,You're Losing Me,1989,FALSE,TRUE,TRUE,2,FALSE
+151,"Toronto, Canada",23-Nov-25,How Did It End?,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+152,"Vancouver, Canada",6-Dec-24,Haunted,Speak Now,TRUE,FALSE,TRUE,1,FALSE
+152,"Vancouver, Canada",6-Dec-24,Wonderland,1989,TRUE,FALSE,TRUE,1,FALSE
+152,"Vancouver, Canada",6-Dec-24,Never Grow Up,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+152,"Vancouver, Canada",6-Dec-24,the Best Day,Fearless,FALSE,TRUE,TRUE,2,FALSE
+153,"Vancouver, Canada",7-Dec-24,"I Love You, I'm Sorry",Non Album,TRUE,FALSE,TRUE,1,Gracie Abrams
+153,"Vancouver, Canada",7-Dec-24,Last Kiss,Fearless,TRUE,FALSE,TRUE,1,Gracie Abrams
+153,"Vancouver, Canada",7-Dec-24,The Tortured Poets Department,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+153,"Vancouver, Canada",7-Dec-24,Maroon,The Tortured Poets Department,FALSE,TRUE,TRUE,2,FALSE
+154,"Vancouver, Canada",8-Dec-24,A Place in This World,Debut,TRUE,FALSE,TRUE,1,FALSE
+154,"Vancouver, Canada",8-Dec-24,New Romantics,1989,TRUE,FALSE,TRUE,1,FALSE
+154,"Vancouver, Canada",8-Dec-24,Long Live,Speak Now,FALSE,TRUE,TRUE,2,FALSE
+154,"Vancouver, Canada",8-Dec-24,New Year's Day,reputation,FALSE,TRUE,TRUE,2,FALSE
+154,"Vancouver, Canada",8-Dec-24,the Manuscript,The Tortured Poets Department,FALSE,TRUE,TRUE,2,

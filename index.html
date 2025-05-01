@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taylor Swift Eras Tour Setlists</title>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <style>
+    body { font-family: Arial; }
+    #map { width: 100%; height: 675px; }
+    .concert-dot { fill: hotpink; opacity: 0.7; }
+    .highlight-dot { fill: hotpink; stroke: black; stroke-width: 1.5px; }
+    #searchBox { width: 250px; padding: 6px; font-size: 16px; }
+    #results { margin-top: 10px; font-size: 16px; color: rgb(78, 17, 96)}
+  </style>
+</head>
+<body>
+<h2 style="color: rgb(78, 17, 96); text-align: center;">Taylor Swift Eras Tour Setlists</h2>
+<p style="color: rgb(1, 65, 107); text-align: center;">Taylor Swift's Eras Tour is currently the highest grossing tour of all-time making a record $2.077 billion in ticket sales alone. Starting on March 17, 2023 in Scottsdale, Arizona it went through twenty countries across five continents before finishing in Vancouver, Canada on December 8, 2024. The 3.5 hour long setlist spanned her musical career. While the setlist went through a few changes, every show Taylor would have an "Acoustic Section" which involved two (or more) unique to that night songs. Every night fans would join live streams to see which surprise songs Taylor chose. In the first half of the tour, Taylor would play two unique songs in full, one on the guitar and one on the piano. On the second half of the tour, Taylor started "mashing" two or more songs together, playing portions of each - one set which would occur on the guitar and the second on the piano. These became known as "mashups". This visualization tracks what songs were played, whether they were part of the regular setlist or a surprise song and whether it was a mash-up or not.</p>
+<p style="color: rgb(78, 17, 96); text-align: left; font-weight: bold;">Enter a song title:</p>
+<input type="text" id="searchBox" placeholder="" />
+<div id="results"></div>
+<div id="map"></div>
+
+<script>
+    var width = 1000, height = 775;
+  
+    var projection = d3.geo.mercator()
+      .scale(160)
+      .translate([width / 2, height / 1.5]);
+  
+    var path = d3.geo.path().projection(projection);
+  
+    var svg = d3.select("#map").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+  
+    var g = svg.append("g");
+  
+    d3.json("http://enjalot.github.io/wwsd/data/world/world-110m.geojson", function(error, geojson) {
+      if (error) throw error;
+  
+      var countries = geojson.features;
+  
+      g.selectAll("path")
+        .data(countries)
+        .enter().append("path")
+        .attr("d", path)
+        .attr("fill", "#eee")
+        .attr("stroke", "#999");
+  
+      // Load CSVs
+      d3.csv("TaylorSwift_ErasTour_DatesStadiums_Geo.csv", function(dates) {
+        d3.csv("TaylorSwift_ErasTour_RegularSetlist.csv", function(regularSetlist) {
+          d3.csv("TaylorSwift_ErasTour_SurpriseSongs.csv", function(surpriseSongs) {
+  
+            var showIdMap = {};
+            dates.forEach(function(d) {
+              d.Latitude = +d.Latitude;
+              d.Longitude = +d.Longitude;
+              d.Show_ID = d.Show_ID.trim();
+              d.Setlist_ID = d.Setlist_ID.trim();
+              d.Cancelled = +d.Cancelled;
+              showIdMap[d.Show_ID] = d;
+            });
+  
+            var dots = g.selectAll(".concert-dot")
+              .data(dates)
+              .enter()
+              .append("text")
+              .attr("class", "concert-symbol")
+              .attr("x", function(d) { return projection([d.Longitude, d.Latitude])[0]; })
+              .attr("y", function(d) { return projection([d.Longitude, d.Latitude])[1]; })
+              .attr("text-anchor", "middle")
+              .attr("alignment-baseline", "central")
+              .attr("font-size", "16px")
+              .attr("fill", "gold")
+              .attr("stroke", "black")
+              .text("❤");
+  
+            // Searchbox
+            d3.select("#searchBox").on("input", function() {
+              var term = this.value.trim().toLowerCase();
+              var matchedRegular = [];
+              var matchedSurprise = [];
+  
+              regularSetlist.forEach(function(d) {
+                var song = d.Song ? d.Song.trim().toLowerCase() : "";
+                var setlistId = d.Setlist_ID ? d.Setlist_ID.trim() : "";
+  
+                if (song === term && setlistId !== "") {
+                  var validShows = dates.filter(function(date) {
+                    return date.Setlist_ID && date.Setlist_ID.trim() === setlistId && +date.Cancelled === 0;
+                  });
+  
+                  validShows.forEach(function(show) {
+                    matchedRegular.push({
+                      ...show,
+                      Special_Guest: d.Special_Guest && d.Special_Guest.trim().toLowerCase() !== "false"
+                        ? d.Special_Guest.trim()
+                        : null
+                    });
+                  });
+                }
+              });
+  
+              surpriseSongs.forEach(function(d) {
+                var song = d.Song ? d.Song.trim().toLowerCase() : "";
+                var showId = d.Show_ID ? d.Show_ID.trim() : "";
+                var show = showIdMap[showId];
+  
+                if (song === term && show && show.Cancelled === 0) {
+                  matchedSurprise.push({
+                    ...show,
+                    Guitar: d.Guitar === "TRUE",
+                    Piano: d.Piano === "TRUE",
+                    Mashup: d.Mashup === "TRUE",
+                    Special_Guest: d.Special_Guest && d.Special_Guest.trim().toLowerCase() !== "false"
+                      ? d.Special_Guest.trim()
+                      : null
+                  });
+                }
+              });
+  
+              var totalMatches = matchedRegular.length + matchedSurprise.length;
+              var guitarCount = matchedSurprise.filter(d => d.Guitar).length;
+              var pianoCount = matchedSurprise.filter(d => d.Piano).length;
+              var mashupCount = matchedSurprise.filter(d => d.Mashup).length;
+              var specialGuestNames = matchedRegular.concat(matchedSurprise)
+                .filter(d => d.Special_Guest)
+                .map(d => d.Special_Guest)
+                .filter((v, i, a) => a.indexOf(v) === i)
+                .join(", ");
+  
+                //Output
+              d3.select("#results").html(
+                `<b>${term}</b> was played ${totalMatches} time(s) during the Eras tour<br>` +
+                (matchedRegular.length > 0 ? `<b>${term}</b> was played ${matchedRegular.length} time(s) in the regular setlist<br>` : "") +
+                (matchedSurprise.length > 0 ? `<b>${term}</b> was played ${matchedSurprise.length} time(s) as a surprise song` : "") +
+                "<ul>" +
+                (matchedSurprise.length > 0 ? `
+                  <li>Played on the guitar (song 1): ${guitarCount}</li>
+                  <li>Played on the piano (song 2): ${pianoCount}</li>
+                  <li>Mashups: ${mashupCount}</li>
+                ` : "") +
+                (specialGuestNames ? `<li>Special Guest(s): ${specialGuestNames}</li>` : "") +
+                "</ul>"
+              );
+  
+              var allMatches = matchedRegular.concat(matchedSurprise);
+  
+              dots
+                .text(function(d) {
+                  return allMatches.some(m => m.Show_ID === d.Show_ID) ? "★" : "❤";
+                })
+                .attr("font-size", function(d) {
+                  return allMatches.some(m => m.Show_ID === d.Show_ID) ? "30px" : "15px";
+                })
+                .attr("fill", function(d) {
+                  return allMatches.some(m => m.Show_ID === d.Show_ID) ? "hotpink" : "gold";
+                })
+                .attr("stroke", function(d) {
+                  return allMatches.some(m => m.Show_ID === d.Show_ID) ? "black" : "black";
+                });
+            });
+  
+          });
+        });
+      });
+    });
+  </script>
+  
