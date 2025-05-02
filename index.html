@@ -11,13 +11,6 @@
     .highlight-dot { fill: hotpink; stroke: black; stroke-width: 1.5px; }
     #searchBox { width: 250px; padding: 6px; font-size: 16px; color: indigo; }
     #results { margin-top: 10px; font-size: 16px; color: midnightblue;}
-
-    /* .axis path,
-    .axis line {
-      stroke-width: 1px;
-      stroke: #b50a0a; /* You can change this to match your design */
-      /* shape-rendering: crispEdges;
-    } */ 
     .axis path.domain {
       display: none;
     }
@@ -245,10 +238,10 @@
                 var chartWidth = 400, chartHeight = 150;
                 var margin = { top: 30, right: 20, bottom: 20, left: 200 };
 
-                //gives least chart unique scale don't remove!!!
-                var x = d3.scale.linear()
-                  .domain([0, d3.max(data, d => d.count)])
-                  .range([0, chartWidth - margin.left - margin.right]);
+                // //gives least chart unique scale
+                // var x = d3.scale.linear()
+                //   .domain([0, d3.max(data, d => d.count)])
+                //   .range([0, chartWidth - margin.left - margin.right]);
 
                 var y = d3.scale.ordinal()
                   .domain(data.map(d => d.song))
