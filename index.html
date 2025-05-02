@@ -5,19 +5,51 @@
   <title>Taylor Swift Eras Tour Setlists</title>
   <script src="https://d3js.org/d3.v3.min.js"></script>
   <style>
-    body { font-family: Arial; }
+    body { font-family: sans-serif; }
     #map { width: 100%; height: 675px; }
     .concert-dot { fill: hotpink; opacity: 0.7; }
     .highlight-dot { fill: hotpink; stroke: black; stroke-width: 1.5px; }
-    #searchBox { width: 250px; padding: 6px; font-size: 16px; }
-    #results { margin-top: 10px; font-size: 16px; color: rgb(78, 17, 96)}
+    #searchBox { width: 250px; padding: 6px; font-size: 16px; color: indigo; }
+    #results { margin-top: 10px; font-size: 16px; color: midnightblue;}
+
+    /* .axis path,
+    .axis line {
+      stroke-width: 1px;
+      stroke: #b50a0a; /* You can change this to match your design */
+      /* shape-rendering: crispEdges;
+    } */ 
+    .axis path.domain {
+      display: none;
+    }
+
   </style>
 </head>
 <body>
-<h2 style="color: rgb(78, 17, 96); text-align: center;">Taylor Swift Eras Tour Setlists</h2>
-<p style="color: rgb(1, 65, 107); text-align: center;">Taylor Swift's Eras Tour is currently the highest grossing tour of all-time making a record $2.077 billion in ticket sales alone. Starting on March 17, 2023 in Scottsdale, Arizona it went through twenty countries across five continents before finishing in Vancouver, Canada on December 8, 2024. The 3.5 hour long setlist spanned her musical career. While the setlist went through a few changes, every show Taylor would have an "Acoustic Section" which involved two (or more) unique to that night songs. Every night fans would join live streams to see which surprise songs Taylor chose. In the first half of the tour, Taylor would play two unique songs in full, one on the guitar and one on the piano. On the second half of the tour, Taylor started "mashing" two or more songs together, playing portions of each - one set which would occur on the guitar and the second on the piano. These became known as "mashups". This visualization tracks what songs were played, whether they were part of the regular setlist or a surprise song and whether it was a mash-up or not.</p>
-<p style="color: rgb(78, 17, 96); text-align: left; font-weight: bold;">Enter a song title:</p>
-<input type="text" id="searchBox" placeholder="" />
+<h2 style="color: indigo; text-align: center;">Taylor Swift Eras Tour Setlists</h2>
+<p style="color: midnightblue; text-align: center;">Taylor Swift's Eras Tour is currently the highest grossing tour of all-time making a record $2.077 billion in ticket sales alone. Starting on March 17, 2023 in Scottsdale, Arizona it went through twenty countries across five continents before finishing in Vancouver, Canada on December 8, 2024. The 3.5 hour long setlist spanned her musical career. While the setlist went through a few changes, every show Taylor would have an "Acoustic Section" which involved two (or more) unique to that night songs. Every night fans would join live streams to see which surprise songs Taylor chose. In the first half of the tour, Taylor would play two unique songs in full, one on the guitar and one on the piano. On the second half of the tour, Taylor started "mashing" two or more songs together, playing portions of each - one set which would occur on the guitar and the second on the piano. These became known as "mashups". This visualization tracks what songs were played, whether they were part of the regular setlist or a surprise song and whether it was a mash-up or not.</p>
+
+<div id="charts-container" style="display: flex; justify-content: center; gap: 50px; margin-top: 30px;">
+  <div id="barChartMost"></div>
+  <div id="barChartLeast"></div>
+</div>
+
+<p style="color: midnightblue; text-align: left; font-weight: bold;">Enter a song title:</p>
+<input type="text" id="searchBox" placeholder=""/>
+
+<p style="text-align: center; font-weight: bold;">
+  <span style="font-size: 18px; 
+    color: gold; 
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"> ❤</span>
+   <span style="font-size: 16px; 
+    color: indigo;"> Show Location </span>
+   <span style="font-size: 16px; 
+    color: indigo;"> | </span>
+   <span style="font-size: 18px; 
+    color: hotpink; 
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">★ </span>
+   <span style="font-size: 16px; 
+    color: indigo;"> Song Played Location</span>
+</p>
 <div id="results"></div>
 <div id="map"></div>
 
@@ -162,14 +194,134 @@
                   return allMatches.some(m => m.Show_ID === d.Show_ID) ? "black" : "black";
                 });
             });
-  
+
+            var surpriseCounts = {};
+            surpriseSongs.forEach(function(d) {
+              var song = d.Song ? d.Song.trim() : "";
+              if (song && song.toLowerCase() !== "false") {
+                surpriseCounts[song] = (surpriseCounts[song] || 0) + 1;
+              }
+            });
+
+            var top5 = Object.keys(surpriseCounts)
+              .map(song => ({ song: song, count: surpriseCounts[song] }))
+              .sort((a, b) => b.count - a.count)
+              .slice(0, 5);
+
+            var chartWidth = 400, chartHeight = 220;
+            var margin = { top: 30, right: 20, bottom: 20, left: 220};
+
+            var x = d3.scale.linear()
+              .domain([0, d3.max(top5, d => d.count)])
+              .range([0, chartWidth - margin.left - margin.right]);
+
+            var y = d3.scale.ordinal()
+              .domain(top5.map(d => d.song))
+              .rangeRoundBands([0, chartHeight - margin.top - margin.bottom], 0.4);
+
+            var svgChart = d3.select("#barChart").append("svg")
+              .attr("width", chartWidth)
+              .attr("height", chartHeight)
+              .append("g")
+              .attr("transform", `translate(${margin.left},${margin.top})`);
+
+
+            svgChart.selectAll("text.label")
+              .data(top5)
+              .enter()
+              .append("text")
+              .attr("class", "label")
+              .attr("x", d => x(d.count) + 5)
+              .attr("y", d => y(d.song) + y.rangeBand() / 5)
+              .text(d => d.count);
+
+              var least5 = Object.keys(surpriseCounts)
+                .map(song => ({ song: song, count: surpriseCounts[song] }))
+                .sort((a, b) => a.count - b.count)
+                .slice(0, 5);
+
+
+                function drawBarChart(data, selector, chartTitle) {
+                var chartWidth = 400, chartHeight = 150;
+                var margin = { top: 30, right: 20, bottom: 20, left: 200 };
+
+                //gives least chart unique scale don't remove!!!
+                var x = d3.scale.linear()
+                  .domain([0, d3.max(data, d => d.count)])
+                  .range([0, chartWidth - margin.left - margin.right]);
+
+                var y = d3.scale.ordinal()
+                  .domain(data.map(d => d.song))
+                  .rangeRoundBands([0, chartHeight - margin.top - margin.bottom], 0.4);
+
+                var xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(4);
+                var yAxis = d3.svg.axis().scale(y).orient("left");
+
+                var svg = d3.select(selector).append("svg")
+                  .attr("width", chartWidth)
+                  .attr("height", chartHeight);
+
+                var g = svg.append("g")
+                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                g.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(-5," + (chartHeight - margin.top - margin.bottom) + ")")
+                  .call(xAxis)
+                  .selectAll("text")
+                  .style("font-size", "12px")
+                  .style("fill", "midnightblue");
+                  
+
+                g.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                  .selectAll("text")
+                  .style("font-size", "14px")
+                  .style("fill", "midnightblue");
+
+                // Bars
+                g.selectAll(".bar")
+                  .data(data)
+                  .enter()
+                  .append("rect")
+                  .attr("class", "bar")
+                  .attr("y", d => y(d.song))
+                  .attr("height", y.rangeBand())
+                  .attr("x", 0)
+                  .attr("width", d => x(d.count))
+                  .attr("fill", "mediumpurple")
+
+                g.selectAll(".label")
+                  .data(data)
+                  .enter()
+                  .append("text")
+                  .attr("class", "label")
+                  .attr("x", d => x(d.count) + 3)
+                  .attr("y", d => y(d.song) + y.rangeBand() / 2)
+                  .attr("dy", ".35em");
+
+                // Chart Title
+                svg.append("text")
+                  .attr("x", chartWidth / 2)
+                  .attr("y", margin.top / 2)
+                  .attr("text-anchor", "middle")
+                  .style("font-size", "16px")
+                  .style("font-weight", "bold")
+                  .style("fill", "midnightblue")
+                  .text(chartTitle);
+              }
+
+              drawBarChart(top5, "#barChartMost", "Top 5 Most Played Surprise Songs");
+              drawBarChart(least5, "#barChartLeast", "Top 5 Least Played Surprise Songs");
+
           });
         });
       });
     });
   </script>
   <p style="text-align: center; margin-top: 30px;">
-    <a href="documentation.html" target="_blank" style="color: rgb(78, 17, 96); font-weight: bold; font-size: 16px;">
+    <a href="documentation.html" target="_blank" style="color: indigo; font-weight: bold; font-size: 16px;">
       Documentation Page
     </a>
   </p>
